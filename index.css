@@ -1,3 +1,10 @@
+
+
+body {
+    background-color: #F2F1EF;
+   
+}
+
 nav{
     
     color: #2C2929;
@@ -7,6 +14,7 @@ nav{
     padding-right: 68px;
     padding-top: 20px;
     padding-bottom: 46px;
+
     }
 
 .name{
@@ -33,7 +41,7 @@ nav{
     display: flex;
 flex-direction: row;
 align-items: center;
-padding: 5px;
+padding: 3px;
 gap: 10px;
 
 position: absolute;
@@ -54,15 +62,107 @@ flex: none;
 order: 0;
 flex-grow: 0;
 padding-left: 20px;
+padding-right: 0;
 
 }
 
-.arrow {
 
-    right: 19.53%;
-    top: 21.88%;
-    bottom: 21.88%;
-    left: 19.53%;
-    border: 2px;
+.containerHeader {
+
+    position: absolute;
+    width: 1440px;
+    height: 688px;
+    left: 0px;
+    top: 120px;
+    line-height: 0;
+    padding-right: 0;
+    
 
 }
+
+
+.header {
+    display:flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 0px;
+
+width: 684px;
+height: 260px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+padding-top: 100px;
+padding-left: 190px;
+padding-bottom: 0px;
+line-height: 0;
+
+
+}
+
+
+.titulo {
+    width: 684px;
+height: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+align-items: center;
+color: #F79F79;
+margin-bottom: 0;
+
+}
+
+.tituloRegular {
+    width: 684px;
+    height: 50px;
+    
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2C2929 ;
+    margin-bottom: 5;
+ 
+
+
+}
+
+
+
+.subtitle { 
+
+    width: 331px;
+height: 72px;
+
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 0;
+
+
+}
+
+.image-container {
+position: absolute;
+width: 506px;
+height: 552px;
+left: 934px;
+top: 74px;
+border-bottom: 150;
+}
+
+.imgConsultorio {
+
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+}
+
