@@ -166,3 +166,70 @@ border-bottom: 150;
     border-top-left-radius: 150px;
 }
 
+.containerRedes {
+position: absolute;
+width: 1440px;
+height: 150px;
+left: 0px;
+top: 700px;
+
+}
+
+.contentRedes {
+    
+position: absolute;
+width: 147px;
+height: 10px;
+left: 647px;
+top: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #F79F79;
+
+}
+
+.redes {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 0px;
+gap: 106px;
+
+position: absolute;
+width: 778px;
+height: 67px;
+left: 342px;
+top: 56px;
+
+}
+
+.containerBio {
+position: absolute;
+width: 1440px;
+height: 700px;
+left: 2px;
+top: 400px;
+
+}
+
+.tituloBio {
+
+position: absolute;
+width: 376px;
+height: 12px;
+left: 191px;
+top: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+
+color: #2C2929;
+
+}
