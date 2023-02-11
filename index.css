@@ -212,7 +212,7 @@ position: absolute;
 width: 1440px;
 height: 700px;
 left: 2px;
-top: 400px;
+top: 350px;
 
 }
 
@@ -220,15 +220,359 @@ top: 400px;
 
 position: absolute;
 width: 376px;
-height: 12px;
+height: 0px;
 left: 191px;
-top: 16px;
+top: 0px;
 
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 48px;
+
+color: #2C2929;
+
+}
+
+.ParrafoBio {
+
+position: absolute;
+width: 497px;
+height: 8px;
+left: 746px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+
+color: #2C2929;
+
+}
+
+
+.uba {
+
+position: absolute;
+width: 202px;
+height: 108px;
+left: 446px;
+top: 522px;
+ 
+ }
+
+ .ctc {
+
+position: absolute;
+width: 178px;
+height: 149px;
+left: 815px;
+top: 505px;
+
+ }
+
+ .containerTCC {
+
+    position: absolute;
+    width: 1440px;
+    height: 1240px;
+    left: 0px;
+    top: 1116px;
+
+ }
+
+ .tituloTCC {
+
+position: absolute;
+width: 602px;
+height: 48px;
+left: 414px;
+top: 87px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600px;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+color: #2C2929;
+
+}
+
+.subtitleTCC {
+
+position: absolute;
+width: 146px;
+height: 48px;
+left: 189px;
+top: 177px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
+color: #F79F79;
+
+ }
+
+ .parrafoTCC {
+
+position: absolute;
+width: 994px;
+height: 120px;
+left: 189px;
+top: 254px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+
+color: #2C2929;
+
+
+ }
+
+ .subtitleTCC2 {
+
+position: absolute;
+width: 623px;
+height: 48px;
+left: 189px;
+top: 403px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
+color: #F79F79;
+
+}
+
+
+
+.containerTCC1 {
+
+position: absolute;
+width: 1057px;
+height: 157px;
+left: 166px;
+top: 518px;
+
+background: #2C2929; 
+border-radius: 8px;
+
+}
+
+.cuadroTextTCC {
+
+    position: absolute;
+    width: 999px;
+    height: 86px;
+    left: 32px;
+    top: 10px;
+}
+
+.titulo1y3 {
+
+position: absolute;
+width: 181px;
+height: 10px;
+left: 30px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #F79F79; 
+
+    }
+
+.ParrafoTCC1y3 {
+
+position: absolute;
+width: 980px;
+height: 48px;
+left: 30px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #F79F79;
+
+}
+
+.containerTCC2 {
+
+    position: absolute;
+    width: 1057px;
+    height: 157px;
+    left: -30px;
+    top: 168px;
+    
+    background: #F79F79;
+    border-radius: 8px;
+}
+
+.cuadroTextTCC {
+
+    
+    position: absolute;
+    width: 999px;
+    height: 86px;
+    left: 32px;
+    top: 10px;
+
+}
+
+.titulo1 {
+
+    position: absolute;
+    width: 181px;
+    height: 10px;
+    left: 30px;
+    top: 0px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #F79F79;
+    
+}
+
+.titulo2 {
+
+    position: absolute;
+width: 295px;
+height: 30px;
+left: 30px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #2C2929;
+
+}
+
+.parrafoTCC2 {
+
+    position: absolute;
+width: 980px;
+height: 48px;
+left: 30px;
+top: 38px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #2C2929;
+
+}
+
+.containerTCC3 {
+
+    position: absolute;
+width: 1057px;
+height: 157px;
+left: -30px;
+top: 168px;
+
+background: #2C2929; 
+border-radius: 8px;
+
+}
+
+.titulo3 {
+  
+
+position: absolute;
+width: 295px;
+height: 30px;
+left: 30px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #F79F79;
+
+}
+
+
+.containerTCC4 {
+
+
+position: absolute;
+width: 1057px;
+height: 157px;
+left: -30px;
+top: 168px;
+
+background: #F79F79;
+border-radius: 8px;
+
+}
+
+.titulo4 {
+
+    position: absolute;
+width: 382px;
+height: 30px;
+left: 30px;
+top: 18px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+
+color: #2C2929;
+
+}
+
+.parrafoTCC4 {
+
+    position: absolute;
+width: 980px;
+height: 48px;
+left: 30px;
+top: 42px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 
 color: #2C2929;
 
