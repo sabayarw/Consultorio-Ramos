@@ -1,8 +1,13 @@
 
+::-webkit-scrollbar {
+    display: none;
+    }
 
 body {
     background-color: #F2F1EF;
    
+    
+
 }
 
 nav{
@@ -33,22 +38,20 @@ nav{
 .navbar{
     font-family: 'Poppins', sans-serif;
     padding: 20px;
-    
-
 }
 
 .button {
     display: flex;
 flex-direction: row;
 align-items: center;
-padding: 3px;
+padding: 2px;
 gap: 10px;
 
 position: absolute;
 width: 190px;
 height: 46px;
-left: 1000px;
-top: 30px;
+left: 1050px;
+top: 33px;
 background-color: #F79F79;
 color: #FFFFFF;
 
@@ -70,7 +73,7 @@ padding-right: 0;
 .containerHeader {
 
     position: absolute;
-    width: 1440px;
+    width: 1000px;
     height: 688px;
     left: 0px;
     top: 120px;
@@ -155,7 +158,7 @@ margin-bottom: 0;
 position: absolute;
 width: 506px;
 height: 552px;
-left: 934px;
+left: 868px;
 top: 74px;
 border-bottom: 150;
 }
@@ -168,8 +171,9 @@ border-bottom: 150;
 
 .containerRedes {
 position: absolute;
-width: 1440px;
+width: 1000px;
 height: 150px;
+right: 0px;
 left: 0px;
 top: 700px;
 
@@ -180,8 +184,9 @@ top: 700px;
 position: absolute;
 width: 147px;
 height: 10px;
-left: 647px;
+left: 597px;
 top: 16px;
+
 
 font-family: 'Poppins';
 font-style: normal;
@@ -202,17 +207,18 @@ gap: 106px;
 position: absolute;
 width: 778px;
 height: 67px;
-left: 342px;
+left: 298px;
 top: 56px;
+right: 298px;
 
 }
 
 .containerBio {
 position: absolute;
-width: 1440px;
+width: 1000px;
 height: 700px;
-left: 2px;
-top: 350px;
+left: 0px;
+top: 300px;
 
 }
 
@@ -221,7 +227,7 @@ top: 350px;
 position: absolute;
 width: 376px;
 height: 0px;
-left: 191px;
+left: 171px;
 top: 0px;
 
 font-family: 'Poppins';
@@ -239,7 +245,7 @@ color: #2C2929;
 position: absolute;
 width: 497px;
 height: 8px;
-left: 746px;
+left: 736px;
 top: 10px;
 
 font-family: 'Poppins';
@@ -259,8 +265,8 @@ color: #2C2929;
 position: absolute;
 width: 202px;
 height: 108px;
-left: 446px;
-top: 522px;
+left: 400px;
+top: 462px;
  
  }
 
@@ -269,18 +275,18 @@ top: 522px;
 position: absolute;
 width: 178px;
 height: 149px;
-left: 815px;
-top: 505px;
+left: 700px;
+top: 442px;
 
  }
 
  .containerTCC {
 
     position: absolute;
-    width: 1440px;
-    height: 1240px;
+    width: 1000px;
+    height: 2000px;
     left: 0px;
-    top: 1116px;
+    top: 1000px;
 
  }
 
@@ -289,7 +295,7 @@ top: 505px;
 position: absolute;
 width: 602px;
 height: 48px;
-left: 414px;
+left: 354px;
 top: 87px;
 
 font-family: 'Poppins';
@@ -308,7 +314,7 @@ color: #2C2929;
 position: absolute;
 width: 146px;
 height: 48px;
-left: 189px;
+left: 169px;
 top: 177px;
 
 font-family: 'Poppins';
@@ -326,7 +332,7 @@ color: #F79F79;
 position: absolute;
 width: 994px;
 height: 120px;
-left: 189px;
+left: 169px;
 top: 254px;
 
 font-family: 'Poppins';
@@ -346,7 +352,7 @@ color: #2C2929;
 position: absolute;
 width: 623px;
 height: 48px;
-left: 189px;
+left: 169px;
 top: 403px;
 
 font-family: 'Poppins';
@@ -577,3 +583,154 @@ line-height: 24px;
 color: #2C2929;
 
 }
+
+.tituloTCC2 {
+
+    position: absolute;
+width: 369px;
+height: 48px;
+left: -30px;
+top: 177px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
+color: #F79F79;
+
+
+}
+
+.parrafoQuien {
+
+    position: absolute;
+    width: 982px;
+height: 72px;
+    left: -30px;
+    top: 258px;
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #2C2929;
+
+}
+
+.containerMotivos {
+
+
+
+position: absolute;
+width: 1000px;
+height: 700px;
+left: 0px;
+top: 350px;
+
+}
+
+.tituloMotivos {
+
+    position: absolute;
+width: 602px;
+height: 24px;
+left: 150px;
+top: 0px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+
+color: #2C2929;
+
+}
+
+.cuadroMotivos {
+
+    position: absolute;
+width: 1058px;
+height: 296px;
+left: -50px;
+top: 50px;
+
+
+
+background: #DCDCDC; 
+
+
+}
+
+
+.primeraListaMotivos  {
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-between;
+position: absolute;
+width: 300px;
+height: 30px;
+left: 50px;
+top: 0px;
+padding: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #2C2929;
+
+}
+
+.segundaListaMotivos {
+
+    position: absolute;
+width: 300px;
+height: 30px;
+left: 350px;
+top: 0px;
+padding: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #2C2929;
+
+}
+
+
+.terceraListaMotivos {
+
+    position: absolute;
+width: 240px;
+height: 30px;
+left: 760px;
+top: 0px;
+padding: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #2C2929;
+
+
+}
+
