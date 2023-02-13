@@ -19,8 +19,9 @@ nav{
     padding-right: 68px;
     padding-top: 20px;
     padding-bottom: 46px;
+    text-decoration: none;
+}
 
-    }
 
 .name{
     font-family: 'Poppins', sans-serif;
@@ -38,7 +39,17 @@ nav{
 .navbar{
     font-family: 'Poppins', sans-serif;
     padding: 20px;
+    text-decoration: none;
 }
+
+.navbar:hover {
+
+   color:#F79F79;
+   text-decoration: none;
+   
+
+}
+
 
 .button {
     display: flex;
@@ -159,7 +170,7 @@ position: absolute;
 width: 506px;
 height: 552px;
 left: 868px;
-top: 74px;
+top: 64px;
 border-bottom: 150;
 }
 
@@ -172,10 +183,10 @@ border-bottom: 150;
 .containerRedes {
 position: absolute;
 width: 1000px;
-height: 150px;
+height: 450px;
 right: 0px;
 left: 0px;
-top: 700px;
+top: 620px;
 
 }
 
@@ -213,12 +224,12 @@ right: 298px;
 
 }
 
-.containerBio {
+.ContainerBio {
 position: absolute;
-width: 1000px;
+width: 1500px;
 height: 700px;
 left: 0px;
-top: 300px;
+top: 270px;
 
 }
 
@@ -228,7 +239,7 @@ position: absolute;
 width: 376px;
 height: 0px;
 left: 171px;
-top: 0px;
+top: 40px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -246,7 +257,7 @@ position: absolute;
 width: 497px;
 height: 8px;
 left: 736px;
-top: 10px;
+top: 50px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -263,10 +274,10 @@ color: #2C2929;
 .uba {
 
 position: absolute;
-width: 202px;
-height: 108px;
+width: 204px;
+height: 102px;
 left: 400px;
-top: 462px;
+top: 485px;
  
  }
 
@@ -276,7 +287,7 @@ position: absolute;
 width: 178px;
 height: 149px;
 left: 700px;
-top: 442px;
+top: 470px;
 
  }
 
@@ -284,9 +295,9 @@ top: 442px;
 
     position: absolute;
     width: 1000px;
-    height: 2000px;
+    height: 0px;
     left: 0px;
-    top: 1000px;
+    top: 900px;
 
  }
 
@@ -379,6 +390,7 @@ background: #2C2929;
 border-radius: 8px;
 
 }
+
 
 .cuadroTextTCC {
 
@@ -584,13 +596,23 @@ color: #2C2929;
 
 }
 
-.tituloTCC2 {
+.ContainerTratamientos {
+
+    position: absolute;
+width: 1000px;
+height: 0px;
+left: 0px;
+top: 170px;
+
+}
+
+.tituloWho {
 
     position: absolute;
 width: 369px;
-height: 48px;
-left: -30px;
-top: 177px;
+height: 0px;
+left: 0px;
+top: 30px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -606,10 +628,10 @@ color: #F79F79;
 .parrafoQuien {
 
     position: absolute;
-    width: 982px;
-height: 72px;
-    left: -30px;
-    top: 258px;
+    width: 1000px;
+height: 1000px;
+    left: 0px;
+    top: 110px;
 
     font-family: 'Poppins';
 font-style: normal;
@@ -621,15 +643,15 @@ color: #2C2929;
 
 }
 
-.containerMotivos {
+.ContainerMotivos {
 
+    position: absolute;
 
+   padding: 0%;
+    left: 25px;
+    top: 550px;
+    
 
-position: absolute;
-width: 1000px;
-height: 700px;
-left: 0px;
-top: 350px;
 
 }
 
@@ -637,9 +659,9 @@ top: 350px;
 
     position: absolute;
 width: 602px;
-height: 24px;
-left: 150px;
-top: 0px;
+height: 0px;
+left: 185px;
+top: -350px;
 
 
 
@@ -657,12 +679,12 @@ color: #2C2929;
 
 .cuadroMotivos {
 
+ 
     position: absolute;
-width: 1058px;
-height: 296px;
-left: -50px;
-top: 50px;
-
+    width: 1058px;
+    height: 296px;
+    left: -23px;
+    top: -300px;
 
 
 background: #DCDCDC; 
