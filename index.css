@@ -1,12 +1,32 @@
 
-::-webkit-scrollbar {
-    display: none;
+@media only screen and (max-width: 480px) {
+
+    html, body {
+   
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+}
+    
+
+html, body {
+    
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+
     }
+
 
 body {
     background-color: #F2F1EF;
    
-    
+
 
 }
 
@@ -87,18 +107,22 @@ padding-right: 0;
 .containerHeader {
 
     position: absolute;
-    width: 1000px;
+    display: flex;
+    max-width: 1200px;
     height: 688px;
     left: 0px;
     top: 120px;
     line-height: 0;
     padding-right: 0;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     
 
 }
 
 
 .header {
+
     display:flex;
 flex-direction: column;
 align-items: flex-start;
@@ -169,10 +193,11 @@ margin-bottom: 0;
 }
 
 .image-container {
-position: absolute;
-width: 506px;
-height: 50px;
-left: 868px;
+
+display: flex;
+width: 550px;
+height: 500px;
+left: 1000px;
 top: 74px;
 border-bottom: 150;
 }
@@ -229,7 +254,7 @@ right: 298px;
 
 .ContainerBio {
 position: absolute;
-width: 1500px;
+width: 1335px;
 height: 700px;
 left: 0px;
 top: 270px;
@@ -762,15 +787,25 @@ color: #2C2929;
 .BeneficiosTCC {
 
     position: absolute;
-    width: 1000px;
+    width: 1068px;
     height: 2000px;
     left: 0px;
     top: 350px;
+    margin-left: 0%;
 
 
 }
 
 .TituloBeneficios {
+
+    display:inline-flex;
+    
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction:row; 
+    justify-content: center;
+
+
 
     position: absolute;
 width: 758px;
@@ -791,6 +826,8 @@ color: #2C2929;
 
 .CC {
     color: #F79F79;
+    padding-left: 10px;
+  
 }
 
 .Beneficio1 {
@@ -802,7 +839,7 @@ gap: 24px;
 
 position: absolute;
 width: 512px;
-height: 1000px;
+height: 750px;
 left: 0px;
 top: 150px;
 
@@ -844,6 +881,8 @@ flex-grow: 0;
 
 .TitulosBeneficios {
 
+
+    
     width: 507px;
     height: 80px;
 
@@ -872,7 +911,7 @@ gap: 24px;
 
 position: absolute;
 width: 512px;
-height: 656px;
+height: 678px;
 left: 550px;
 top: 150px;
 
@@ -908,11 +947,19 @@ flex-grow: 0;
 
 .Beneficio3 {
 
-    position: absolute;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
 width: 507px;
-height: 578px;
+height: 600px;
 left: 0px;
 top: 950px;
+
+
 
 }
 
@@ -956,7 +1003,7 @@ position: absolute;
 width: 509px;
 height: 686px;
 left: 550px;
-top: -40px;
+top: 900px;
 
 }
 
@@ -989,3 +1036,188 @@ order: 1;
 flex-grow: 0;
 
 }
+
+.modalidades {
+
+    width: 1000px;
+    height: 2000px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.tituloModalidades {
+
+ 
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction: center;
+justify-content: center;
+
+width: 875px;
+height: 48px;
+left: 68px;
+top: 2100px;
+
+position: absolute;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 48px;
+
+text-align: center;
+
+color: #F79F79;
+
+}
+
+
+.containerModalidades {
+
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+flex-direction: center;
+justify-content: center;
+
+position: absolute;
+width: 900px;
+height: 362px;
+left: 0px;
+top: 2250px;
+
+}
+
+.presencial {
+
+    width: 970px;
+height: 452px;
+left: 500px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.containerTituloPresencial {
+
+    position: absolute;
+left: 38px;
+top: 0%;
+bottom: 85%;
+width: 398px;
+height: 60px;
+
+background: #F79F79;
+border-radius: 8px 8px 0px 0px;
+
+}
+
+.tituloPresencial {
+
+    position: absolute;
+    left: 150px;
+flex-direction: center;
+justify-content: center;
+
+
+top: -5px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+
+color: #F2F1EF;
+
+}
+
+.imgPresencial {
+
+    position: absolute;
+top: 60px;
+
+
+}
+
+.virtual {
+
+    left: 1000px;
+    width: 397px;
+height: 482px;
+
+left: 0px;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.containerTituloVirtual {
+
+    position: absolute;
+left: 572px;
+right: 100px;
+top: 0%;
+bottom: 85%;
+width: 398px;
+height: 60px;
+
+background: #F79F79;
+border-radius: 8px 8px 0px 0px;
+
+}
+
+.tituloVirtual {
+
+    position: absolute;
+    left: 158px;
+    
+    top: -5px;
+    
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: #F2F1EF;
+}
+
+.imgVirtual {
+
+    
+position: absolute;
+top: 60px;
+
+} 
+
+.frameCTA {
+
+
+position: absolute;
+width: 1150px;
+height: 439px;
+left: 0px;
+top: 2800px;
+
+
+
+background: #2C2929;
+
+}
+
+
+
